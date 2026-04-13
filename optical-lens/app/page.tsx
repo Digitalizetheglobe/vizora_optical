@@ -53,7 +53,7 @@ export default function HomePage() {
       <div style={{ background: 'linear-gradient(135deg, #1565c0, #0097c7)', padding: '14px 0' }}>
         <div className="container flex-between" style={{ flexWrap: 'wrap', gap: 12 }}>
           <p style={{ fontSize: '0.82rem', fontWeight: 600, color: 'white', letterSpacing: '0.04em' }}>
-            Now Available: V INFINITY 4K — Ultra-Premium Digital Progressive Lens
+            Now Available: V INFINITY 4K - Ultra-Premium Digital Progressive Lens
           </p>
           <Link href="/products/lenses" style={{ fontSize: '0.78rem', fontWeight: 700, color: 'white', textDecoration: 'underline', letterSpacing: '0.06em' }}>
             Learn More →

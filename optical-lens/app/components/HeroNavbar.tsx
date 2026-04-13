@@ -8,12 +8,12 @@ const NAV = [
   { label: 'Home', href: '/' },
   {
     label: 'About Us',
-    href: '/',
+    href: '/about',
     children: [
-      { label: 'Mission & Values', href: '/' },
-      { label: 'History', href: '/' },
-      { label: 'Innovation & R&D', href: '/' },
-      { label: 'Media & Press', href: '/' },
+      { label: 'Mission & Values', href: '/about/mission' },
+      { label: 'History', href: '/about/history' },
+      { label: 'Innovation & R&D', href: '/about/innovation' },
+      { label: 'Media & Press', href: '/about/media' },
     ],
   },
   {
@@ -34,7 +34,7 @@ const NAV = [
       { label: 'Training', href: '/professionals/training' },
     ],
   },
-  { label: 'Contact', href: '/' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 export default function HeroNavbar() {

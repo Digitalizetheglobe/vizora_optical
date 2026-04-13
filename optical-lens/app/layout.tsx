@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: {
     template: "%s | Vizora Optics",
-    default: "Vizora Optics — Premium Ophthalmic Lenses",
+    default: "Vizora Optics - Premium Ophthalmic Lenses",
   },
   description:
     "Vizora Optics delivers precision-engineered ophthalmic lenses for eye care professionals. Premium progressive and single vision lens solutions with advanced coating technologies.",
