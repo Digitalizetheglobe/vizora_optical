@@ -34,7 +34,7 @@ const NAV = [
       { label: 'Training', href: '/' },
     ],
   },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Contact', href: '/' },
 ];
 
 export default function HeroNavbar() {
@@ -65,9 +65,9 @@ export default function HeroNavbar() {
           <Image
             src="/images/logo.png"
             alt="Vizora Optics Logo"
-            width={0}
-            height={0}
-            sizes="100vw"
+            width={160}
+            height={100}
+            unoptimized
             style={{ height: '100px', width: 'auto', objectFit: 'contain' }}
           />
         </Link>

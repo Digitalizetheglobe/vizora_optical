@@ -147,9 +147,9 @@ export default function Navbar() {
   <Image
     src="/images/logo.png"
     alt="Vizora Optics Logo"
-    width={0}
-    height={0}
-    sizes="100vw"
+    width={160}
+    height={100}
+    unoptimized
     style={{ height: '100px', width: 'auto', objectFit: 'contain' }}
   />
 </Link>
